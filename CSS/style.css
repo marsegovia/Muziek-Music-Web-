@@ -1,0 +1,509 @@
+/* Clases*/
+*{
+    background-color: black;
+    background-color: rgb(10, 10, 10);
+    background-blend-mode: soft-light;
+}
+
+/*---------------------Barra de busqueda--------------*/
+.search-bar{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-bar input{
+    margin-top: 25px;
+    width: 0px;
+    height: 40px;
+    padding:0 20px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid darkmagenta;
+    transition: all 0.6s ease;
+    color: white;
+}
+
+.btn{
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    top: 0;
+    right: 0;
+    background-color: darkmagenta;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.btn i{
+    background-color: darkmagenta;
+}
+
+.search-bar:hover input{
+    width: 240px;
+}
+
+.search-bar input:focus{
+    width: 240px;
+}
+
+/*-------------------------Menus-------------------------*/
+.header{
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+    margin-left: 6px;
+    font-family: tag;
+    font-size: 30px;
+}
+
+.menu a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambia el color del enlace al pasar el cursor por encima */
+.menu a:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+
+.menu1{
+    display: flex;
+    align-items: center;
+}
+
+.menu1 li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+}
+
+.menu1 a {
+    font-size: 16px;
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.menufoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.menufoot li{
+    color: white;
+    list-style: none;
+    font-family: tag;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.menufoot a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menufoot a:hover{
+    background-color: darkmagenta;
+}
+
+
+/*-----------------------Botones----------------------*/
+
+.boton{
+    padding: 12px 40px;
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+}
+
+.boton:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
+.boton1{
+    color: white;
+    padding: 12px 40px;
+    font-size: 30px;
+    background-color: darkmagenta;
+    border: none;
+    cursor: pointer;
+    font-family: tag;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.boton1:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
+.boton2{
+    color: white;
+    padding: 12px 40px;
+    font-size: 30px;
+    margin-left: 22px;
+    background-color: darkmagenta;
+    border: none;
+    cursor: pointer;
+    font-family: tag;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.boton2:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
+
+/*-------------------------Textos-----------------------------*/
+#texto{
+    text-align: start;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#texto2{
+    margin-left: 22px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto3{
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.titulo{
+    color: white;
+    background: transparent;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Urban;
+}
+
+.titulo2{
+    margin-top: 0;
+    font-size: 50px;
+    color: #7C7A7D;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+
+.titulo2 a{
+    color:darkgray;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+.titulo2 a:hover{
+    background-color: #7C7A7D;
+    color: black;
+}
+
+.titulo3{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: #7C7A7D;
+}
+
+.form-control{
+    width: 200px;
+    font-size: 16px;
+}
+
+
+
+/*-----------------------------Contendores-----------------------------------*/
+.contenedor{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.cont3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.events{
+    background-image: url('../IMG/eventos.jpg');
+    background-color: rgb(60, 60, 60);
+    background-blend-mode: soft-light;
+    width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+.events:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+.events1:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.events1{
+    background-image: url('../IMG/pexels-tommy-lopez-765139.jpg');
+    width: 420px;
+    height: 150px;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+
+
+
+
+/*---------------------------------Footer -------------------------------*/
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: tag;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.form-control{
+    background-color: black;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------IDs--------------------*/
+
+#texto1{
+    color: white;
+    font-family: Comic-Runes;
+    font-size: 18px;
+}
+
+.enlace{
+    text-decoration: none;
+    margin-left: 12px;
+    color: white;
+}
+
+.titulos{
+    font-family: Graffitti;
+    font-size: 80px;
+    color:darkorchid;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+#sub_titulo{
+    font-family: bad;
+    font-size: 40px;
+    color: #5C55C5;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+
+
+/*----------------------------Fuentes------------------------*/
+
+@font-face {
+    font-family: Graffitti;
+    src: url('../Fonts/MARSNEVENEKSK-Clean.otf');
+}
+
+@font-face {
+    font-family: tag;
+    src: url('../Fonts/aAnotherTag.ttf');
+}
+
+@font-face {
+    font-family: bad;
+    src: url('../Fonts/Bad\ Signal.otf');
+}
+
+@font-face {
+    font-family: Urban;
+    src: url('../Fonts/UrbanJungleDEMO.otf');
+}
+
+@font-face {
+    font-family: Take;
+    src: url('../Fonts/Take\ cover.ttf');
+}
+
+/*----------------------------Responsive------------------------*/
+
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img{
+        display: inline-block;
+        height: auto;
+        width: auto;
+    }
+    .menu{
+        align-items: flex-end;
+        flex-direction: row;
+    }
+    .menu li{
+        flex-direction: row;
+        text-align: center;
+        font-size: 20px;
+    }
+    .boton{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .titulos{
+        margin-left: auto;
+        margin-top: 200px;
+        font-size: 35px;
+        text-wrap: nowrap;
+    }
+
+    .cont1{
+        align-items: center;
+    }
+    .contenedor{
+        flex-direction: column;
+    }
+    .contenedor1{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .events{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .events1{
+        height: auto;
+    }
+
+    .footer{
+        flex-direction: row;
+        margin-left: auto;
+        width: 50%;
+    }
+    .about{
+        text-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .terms{
+        text-wrap: nowrap;
+        display: inline-block;
+    }
+    .Monster{
+        flex-wrap: wrap;
+        
+        
+
+    }
+    .menufoot li{
+        font-size: 25px;
+    }
+}
