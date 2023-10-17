@@ -394,6 +394,18 @@
                0px -3px 0px white;
 }
 
+.titulos1{
+    font-family: Graffitti;
+    font-size: 80px;
+    color:darkorchid;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
 #sub_titulo{
     font-family: bad;
     font-size: 40px;
@@ -436,6 +448,7 @@
 /*----------------------------Responsive------------------------*/
 
 @media screen and (max-width: 768px){
+    /*----------------------------Header------------------------*/
     .header{
         flex-direction: row;
         flex-wrap: wrap;
@@ -460,10 +473,18 @@
     }
     .titulos{
         margin-left: auto;
-        margin-top: 200px;
+        margin-top: 170px;
         font-size: 35px;
         text-wrap: nowrap;
     }
+    .titulos1{
+        margin-top: 20px;
+        margin-left: auto;
+        font-size: 35px;
+        text-wrap: nowrap;
+    }
+
+    /*----------------------------Contenido------------------------*/
 
     .cont1{
         align-items: center;
@@ -484,26 +505,42 @@
         height: auto;
     }
 
-    .footer{
-        flex-direction: row;
-        margin-left: auto;
-        width: 50%;
-    }
-    .about{
-        text-wrap: nowrap;
-        align-items: flex-end;
-    }
-    .terms{
-        text-wrap: nowrap;
-        display: inline-block;
-    }
-    .Monster{
-        flex-wrap: wrap;
-        
-        
+/*----------------------------Footer------------------------*/
 
+.footer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.about{
+    text-wrap: nowrap;
+}
+.terms{
+    text-wrap: nowrap;
+}
+.menufoot li{
+    font-size: 15px;
+}
+.titulo2{
+    text-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+
+    /*----------------------------pie------------------------*/
+
+
+    .pie{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    .menufoot li{
-        font-size: 25px;
+    #texto1{
+        text-wrap: wrap;
+        font-size: 15px;
+        text-align: center;
+    }
+    .menu1 li{
+        text-align: center;
+        font-size: 12px;
     }
 }
