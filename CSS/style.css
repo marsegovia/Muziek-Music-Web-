@@ -87,7 +87,7 @@
 /* Cambia el color del enlace al pasar el cursor por encima */
 .menu a:hover {
     color: white;
-    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
+    text-shadow: 0 0 10px  darkmagenta, 0 0 10px  darkmagenta;
 }
 
 
