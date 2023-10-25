@@ -86,8 +86,8 @@
 
 /* Cambia el color del enlace al pasar el cursor por encima */
 .menu a:hover {
-    background-color: darkmagenta;
     color: white;
+    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
 }
 
 
@@ -134,7 +134,7 @@
 }
 
 .menufoot a:hover{
-    background-color: darkmagenta;
+    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
 }
 
 
@@ -240,8 +240,8 @@
 }
 
 .titulo2 a:hover{
-    background-color: #7C7A7D;
-    color: black;
+    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
+    color: white;
 }
 
 .titulo3{

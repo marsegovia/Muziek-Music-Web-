@@ -1,0 +1,232 @@
+/* Clases*/
+*{
+    background-color: black;
+    background-color: rgb(10, 10, 10);
+    background-blend-mode: soft-light;
+}
+
+/*---------------------Barra de busqueda--------------*/
+.search-bar{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-bar input{
+    margin-top: 25px;
+    width: 0px;
+    height: 40px;
+    padding:0 20px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid darkcyan;
+    transition: all 0.6s ease;
+    color: white;
+}
+
+.btn{
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    top: 0;
+    right: 0;
+    background-color: darkcyan;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.btn i{
+    background-color: darkcyan;
+}
+
+.search-bar:hover input{
+    width: 240px;
+}
+
+.search-bar input:focus{
+    width: 240px;
+}
+
+/*-------------------------Menus-------------------------*/
+.header{
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+    margin-left: 6px;
+    font-family: tag;
+    font-size: 30px;
+}
+
+.menu a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Cambia el color del enlace al pasar el cursor por encima */
+.menu a:hover {
+    color: white;
+    text-shadow: 0 0 10px  darkcyan, 0 0 10px  darkcyan;
+}
+
+
+
+.menufoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.menufoot li{
+    color: white;
+    list-style: none;
+    font-family: tag;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.menufoot a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menufoot a:hover{
+    text-shadow: 0 0 5px  darkcyan, 0 0 5px  darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------Footer -------------------------------*/
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    color: white;
+    font-family: tag;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.form-control{
+    background-color: black;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+
+
+/*----------------------------Fuentes------------------------*/
+
+@font-face {
+    font-family: Graffitti;
+    src: url('../Fonts/MARSNEVENEKSK-Clean.otf');
+}
+
+@font-face {
+    font-family: tag;
+    src: url('../Fonts/aAnotherTag.ttf');
+}
+
+@font-face {
+    font-family: bad;
+    src: url('../Fonts/Bad\ Signal.otf');
+}
+
+@font-face {
+    font-family: Urban;
+    src: url('../Fonts/UrbanJungleDEMO.otf');
+}
+
+@font-face {
+    font-family: Take;
+    src: url('../Fonts/Take\ cover.ttf');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

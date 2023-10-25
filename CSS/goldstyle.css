@@ -82,12 +82,13 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 /* Cambia el color del enlace al pasar el cursor por encima */
 .menu a:hover {
-    background-color: darkcyan;
     color: white;
+    text-shadow: 0 0 10px  darkcyan, 0 0 10px  darkcyan;
 }
 
 
@@ -134,7 +135,7 @@
 }
 
 .menufoot a:hover{
-    background-color: darkcyan;
+    text-shadow: 0 0 5px  darkcyan, 0 0 5px  darkcyan;
 }
 
 /*-----------------------Botones----------------------*/
@@ -302,8 +303,8 @@ background: transparent;
 }
 
 .titulo2 a:hover{
-    background-color: #7C7A7D;
-    color: black;
+    text-shadow: 0 0 5px  darkcyan, 0 0 5px  darkcyan;
+    color: white;
 }
 
 .titulo3{
