@@ -21,7 +21,7 @@
     font-size: 18px;
     outline: none;
     border-radius: 20px;
-    border: 1px solid darkcyan;
+    border: 1px solid darkseagreen;
     transition: all 0.6s ease;
     color: white;
 }
@@ -33,7 +33,7 @@
     height: 55px;
     top: 0;
     right: 0;
-    background-color: darkcyan;
+    background-color: darkseagreen;
     line-height: 55px;
     text-align: center;
     font-size: 20px;
@@ -43,7 +43,7 @@
 }
 
 .btn i{
-    background-color: darkcyan;
+    background-color: darkseagreen;
 }
 
 .search-bar:hover input{
@@ -88,7 +88,7 @@
 /* Cambia el color del enlace al pasar el cursor por encima */
 .menu a:hover {
     color: white;
-    text-shadow: 0 0 10px  darkcyan, 0 0 10px  darkcyan;
+    text-shadow: 0 0 18px  darkseagreen, 0 0 18px  darkseagreen;
 }
 
 
@@ -114,28 +114,306 @@
 }
 
 .menufoot a:hover{
-    text-shadow: 0 0 5px  darkcyan, 0 0 5px  darkcyan;
+    text-shadow: 0 0 15px  darkseagreen, 0 0 15px  darkseagreen;
+}
+
+/* Menu de Footer Derechos */
+
+.menu1{
+    display: flex;
+    align-items: center;
+}
+
+.menu1 li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+}
+
+.menu1 a {
+    font-size: 16px;
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
+/*-------------------------Contenido-------------------------*/
+.inicio{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../IMG/Music_grid_sm@3x.webp');
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.last{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.opiniones{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opiniones1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.content{
+    border: 2px solid darkseagreen;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content1{
+    border: 2px solid darkseagreen;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content2{
+    border: 2px solid darkseagreen;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    font-family: bad;
+}
+
+/* ------------------------------Estilos de Form------------------- */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.label{
+    width: 430px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.form input{
+    color: white;
+}
+
+.form1 input{
+    color: white;
+}
+
+.form select{
+    color: gray;
+    width: auto;
+    height: 45px;
+}
+
+.form1 select{
+    color: gray;
+    width: auto;
+    height: 45px;
+}
+
+.form select option{
+    color: white;
+}
+
+.form1 select option{
+    color: white;
+}
+/*-------------------------Textos-----------------------------*/
+.titulo{
+    font-family: street;
+    background: transparent;
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+           0px  3px 0px white,
+          -3px  0px 0px white,
+           0px -3px 0px white;
+}
+
+.p{
+    font-size: 20px; 
+    margin-left: 200px;
+    background-color: transparent;
+}
+
+.titulo1{
+    font-family: Graffitti;
+    background: transparent;
+    font-size: 80px;
+    color:darkseagreen;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+           0px  3px 0px white,
+          -3px  0px 0px white,
+           0px -3px 0px white;
+transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.p1{
+    font-size: 20px; 
+    margin-left: 200px;
+    background-color: transparent;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.texto{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.texto1{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: -10px;
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-user{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.text_form{
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text_form1{
+    margin-left: 40px;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Texto del menufoot */
+
+.titulo2{
+    margin-top: 0;
+    font-size: 50px;
+    color: #7C7A7D;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
 
 
+.titulo2 a{
+    color:darkgray;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+.titulo2 a:hover{
+    text-shadow: 0 0 5px  darkseagreen, 0 0 5px  darkseagreen;
+    color: white;
+}
+
+.titulo3{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: #7C7A7D;
+}
+/*-------------------------Botones-----------------------------*/
+.boton{
+    padding: 12px 40px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+}
+
+.boton:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
 
 
+.boton1{
+    padding: 12px 40px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+}
 
+.boton1:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
 
+.boton2{
+    padding: 12px 40px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+    width: 200px;
+    margin-left: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.boton2:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
 
 
 
@@ -202,6 +480,11 @@
 @font-face {
     font-family: Take;
     src: url('../Fonts/Take\ cover.ttf');
+}
+
+@font-face {
+    font-family: street;
+    src: url('../Fonts/street\ cred.otf');
 }
 
 

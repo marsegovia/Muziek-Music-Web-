@@ -29,28 +29,30 @@
                 <li><button class="boton">Iniciar  Sesion</button></li>
             </nav>
     </header>
+    <br>
 
-<!-------------------Contenido-------------------------->
+<!----------------------------------------Contenido-------------------------------------------->
 
 <!-------------------Section 1-------------------------->
-<section>
-    <h1>Sincronizacion y Patrocinadores</h1>
-    <p>To further our mission of creating artist sustainability, <br>
-        we thrive on developing forward-thinking opportunities <br> 
-        for our roster to expand their audience with partners <br> 
-        that build impactful narratives around their music.</p>
+<section class="inicio">
+    <h1 class="titulo">Sincronizacion y <br>
+        Patrocinadores</h1>
+    <p class="p">Nuestra mision es crear sustentabilidad a los creadores, atribuimos el desarrollo y avance de las oportunidades <br> 
+        para asi expandir la audiencia y alcanzar mas patrocinadores que impacten en la industria musical.</p>
+    <br>
 
-        <button>Se patrocinador</button>
-
-        <button>Licencias</button>
-
+    <div class="botones">
+        <button class="boton">Se patrocinador</button>
+    <button class="boton1">Licencias</button>
+    </div>
 </section>
+<br>
 
 
 <!-------------------Section 2-------------------------->
-<section>
-    <h2>Ultimas colaboraciones</h2>
-    <p>Explore some of our latest partnerships and activations <br> 
+<section class="last">
+    <h2 class="titulo1">Ultimas colaboraciones</h2>
+    <p class="p1">Explore some of our latest partnerships and activations <br> 
         with innovative platforms and games such as Rocket League, Fortnite, and SMITE.</p>
 </section>
 
@@ -58,32 +60,76 @@
 
 <!-------------------Section 3-------------------------->
 
-<h3 class="titulo">WHAT OUR PARTNERS THINK</h3>
-
+<h3 class="titulo1">QUE PIENSAN NUESTROS PATROCINADORES</h3>
 <section class="opiniones">
     <div class="content">
-        <p class="texto">"En estos tiempos, Muziek Gold ha sido mi salvavidas, permitiendome <br> 
-            disfrutar de una vasta coleccion de grandes exitos."</p>
-        <p class="texto-user">... Nymn</p>
+        <p class="texto"> <i>"Estas colaboraciones dan vida a la musica de Muziek y a los artistas en SMITE, <br>
+            con audio autentico y toques especiales que los fans amaran."</i></p>
+        <p class="texto-user"><strong>ALEX CANTATORE</strong> <br>
+                        Hi-Rez Studios Senior Brand Director of Live Games</p>
     </div>
     <br>
 
     <div class="content">
-        <p class="texto">"Siempre disfruto de lo que Muziek ofrece y he estado usandolo por muchos años. <br>
-            Dando la posibilidad de crear contenido sin copyright."</p>
-            <p class="texto-user">... Vikkstar</p>
+        <p class="texto"><i>"Muziek se ha convertido en una parte fundamental en la comunidad de Rocket League. <br>
+            Estamos felices de trabajar juntos, de lo que hacemos y de todo lo que vendra"</i></p>
+            <p class="texto-user"><strong>MIKE AULT</strong> <br>
+                        Audio Director at Psyonix</p>
     </div>
     <br>
 
     <div class="content">
-        <p class="texto">"He sido parte de la comunidad de Muziek por mas de 5 años. Me otorga la posibilidad de elegir! <br> 
-            Si eres streamer y no usas Muziek, estas perdiendo el tiempo!"</p>
-            <p class="texto-user">... Joblesstick</p>
+        <p class="texto">"Muziek sabe que los juegos son el futuro y ellos son de la poca minoria que facilita <br>
+            las licencias para cada uno de los creadores de contenido"</p>
+            <p class="texto-user"><strong>JAROSLAV BECK </strong><br>
+                        Co-founder & Head of Music at Beat Games</p>
     </div>
 </section>
+<br>
 
 
+<!------------------------------- Forms------------------------------------->
 
+<section class="opiniones1">
+    <div class="content1">
+        <h4 class="text_form">¿INTERESADO EN SER<br>
+            UN PATROCINADOR? HABLEMOS!</h4>
+        <p class="texto1">Nos encanta trabajar con entidades que desean impactar fuertemente a traves de la musica. <br>
+            ¿Tienes una idea para compartirnos? Hazla saber a nuestros otros compañeros!</p>
+        <button class="boton2">Contactanos</button>
+    </div>
+    <br>
+    
+    <h4 class="text_form1">¿ESTAS BUSCANDO LICENCIAS?</h4>
+
+    <form class="content2" action="">
+        <div class="form">
+            <label for="">Nombre</label>
+            <input type="text" class="label" name="nombre" placeholder="Nombre" required>
+            <br>
+
+            <label for="">Creador u Organizacion</label>
+                <select name="creador" class="label" required> 
+                    <option value="" disabled selected hidden>Seleccione una opcion</option>
+                    <option value="">Creador de Contenido</option>
+                    <option value="">Organizacion</option>
+                </select>
+        </div>
+
+        <div class="form1">
+            <label for="">Email</label>
+            <input type="text" class="label" name="email" placeholder="Email" required>
+            <br>
+
+            <label for="">Tipo de Uso</label>
+                <select name="uso" class="label" required>
+                    <option value="" disabled selected hidden>Seleccione una opcion</option> 
+                    <option value="">Personal</option>
+                    <option value="">Comercial</option>
+                </select>
+        </div>
+    </form>
+</section>
 
 
 
