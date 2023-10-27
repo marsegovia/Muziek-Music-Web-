@@ -417,6 +417,73 @@
 }
 
 
+/*----------------------------Slider------------------------*/
+
+/* Estilos para las flechas */
+.slider-arrow {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white; /* Cambiar el color de las flechas a blanco */
+}
+
+/* Estilos para la flecha "Anterior" (izquierda) */
+.slider-prev {
+    left: 20px;
+}
+
+/* Estilos para la flecha "Siguiente" (derecha) */
+.slider-next {
+    right: 20px;
+}
+
+.slider-container{
+    height: 350px;
+    display: inline-block; /* Mostrar las diapositivas en línea */
+    width: 100%; /* Ajustar el ancho según tus necesidades */
+    height: 400px; /* Ajustar la altura según tus necesidades */
+    position: relative;
+}
+
+/* Estilos para las diapositivas */
+.slider-slide {
+    margin-top: 60px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.album-info{
+    margin-left: 40px;
+    background: transparent;
+}
+
+
+/* Estilos para las diapositivas del carrusel */
+.slider-slide::before {
+    content:'';
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+	background: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0,8));
+}
+
+.slider-slide img{
+    height: 300px;
+}
+
+
+
+
 
 /*----------------------------Fuentes------------------------*/
 
