@@ -1,37 +1,45 @@
-let slideIndex = 0; // Empezar en la primera diapositiva
-
-const slides = document.querySelectorAll('.slider-slide');
-const prevArrow = document.querySelector('.slider-prev');
-const nextArrow = document.querySelector('.slider-next');
+var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
 
 function showSlide(n) {
-    if (n < 0) {
-        slideIndex = slides.length - 1;
-    } else if (n >= slides.length) {
-        slideIndex = 0;
-    }
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.opacity = 0;
-    }
-
-    slides[slideIndex].style.opacity = 1;
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
 }
 
-function nextSlide() {
-    slideIndex++;
-    showSlide(slideIndex);
+function changeSlide(n) {
+    showSlide(currentSlide + n);
 }
 
-function prevSlide() {
-    slideIndex--;
-    showSlide(slideIndex);
+document.querySelector('.prev').addEventListener('click', function() {
+    changeSlide(-1);
+});
+
+document.querySelector('.next').addEventListener('click', function() {
+    changeSlide(1);
+});
+
+showSlide(currentSlide);
+
+var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
+
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
 }
 
-nextArrow.addEventListener('click', nextSlide);
-prevArrow.addEventListener('click', prevSlide);
+function changeSlide(n) {
+    showSlide(currentSlide + n);
+}
 
-showSlide(slideIndex);
+document.querySelector('.prev').addEventListener('click', function() {
+    changeSlide(-1);
+});
 
-// Cambiar automáticamente de slide cada 5 segundos
-setInterval(nextSlide, 5000);
+document.querySelector('.next').addEventListener('click', function() {
+    changeSlide(1);
+});
+
+showSlide(currentSlide);

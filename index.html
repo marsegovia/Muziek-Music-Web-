@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="https://kit.fontawesome.com/789ca628aa.js" crossorigin="anonymous"></script>
     <title>Muziek</title>
@@ -29,57 +30,80 @@
                 <li><button class="boton">Iniciar  Sesion</button></li>
             </nav>
     </header>
+    <br>
 
 
 
     <!-------------------------------- Slider ---------------------------------------->
+<div class="slider">
+    <div class="slides">
 
-<section class="slider-container">
-    <div class="slider-arrow slider-prev">&lt;</div>
-        <div class="slider-slide" style="background-image: url('./IMG/CRO.jfif');">
-            <div><img src="./IMG/CRO.jfif" alt=""></div>
-            <div class="album-info">
-                <h2>MDB</h2>
-                <p>Artista: CRO</p>
+        <div class="slide">
+            <div class="image-text">
+                <div class="image" style="background-image: url('./IMG/CRO.jfif');">
+                    <img src="./IMG/CRO.jfif" alt="">
+                    <div class="text">
+                        <h2>542</h2>
+                        <p>Artista: CRO</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="slider-slide" style="background-image: url('./IMG/Duki.jfif');">
-            <div><img src="./IMG/Duki.jfif" alt=""></div>
-            <div class="album-info">
-                <h2>Desde el Fin del Mundo</h2>
-                <p>Artista: Duki</p>
+        <div class="slide">
+            <div class="image-text">
+                <div class="image" style="background-image: url('./IMG/Duki.jfif');">
+                <img src="./IMG/Duki.jfif" alt="">
+                <div class="text">
+                    <h2>Antes de Ameri</h2>
+                    <p>Artista: Duki</p>
+                </div>
+            </div>
+    
             </div>
         </div>
+            <!-- Agrega más slides con la misma estructura si deseas -->
+            <div class="slide">
+                <div class="image-text">
+                    <div class="image" style="background-image: url('./IMG/edsheeran.jfif');">
+                    <img src="./IMG/edsheeran.jfif" alt="">
 
-        <div class="slider-slide" style="background-image: url('./IMG/edsheeran.jfif');">
-            <div><img src="./IMG/edsheeran.jfif" alt=""></div>
-            <div class="album-info">
-                <h2>Substract</h2>
-                <p>Artista: Ed Sheeran</p>
+                    <div class="text">
+                        <h2>Substract</h2>
+                        <p>Artista: Ed Sheeran</p>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
 
-        <div class="slider-slide" style="background-image: url('./IMG/litkillak.jfif');">
-            <div><img src="./IMG/litkillak.jfif" alt=""></div>
-            <div class="album-info">
-                <h2>Snipez</h2>
-                <p>Artista: Lit Killah</p>
+            <div class="slide">
+                <div class="image-text">
+                    <div class="image" style="background-image: url('./IMG/litkillak.jfif');">
+                    <img src="./IMG/litkillak.jfif" alt="">
+                    <div class="text">
+                        <h2>MAWZ</h2>
+                        <p>Artista: Lit Killah</p>
+                    </div>
+                </div>
+
+                </div>
             </div>
-        </div>
+    </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+    
+    <br>
 
-    <div class="slider-arrow slider-next">&gt;</div>
-</section>
-<br>
 
-
-    <h1 class="titulos" style="margin-top: 100px;">Escucha Nuestra Musica</h1>
+<!-------------------------------- Primera seccion  ---------------------------------------->
+    <h1 class="titulos" style="margin-top: 150px;">Escucha Nuestra Musica</h1>
 
     <div>
-        <hr id="linea" style="width: 900px; margin-bottom: 30px;">
+        <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
     </div>
 
-    <!------------------------------- Primera seccion ------------------------------------->
+
 <section class="contenedor">
 <!-- contenedor izquierdo -->
     <section class="cont1">
@@ -107,9 +131,9 @@
     </section>
 </section>
 
-    <div>
-        <hr id="linea" style="width: 900px; margin-top: 30px;">
-    </div>
+<div>
+    <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
+</div>
 
 <!------------------------------------ 2da seccion -------------------------------------->
 <h2 class="titulos1">Sumergete</h2>
@@ -127,7 +151,9 @@
         </section>
 </section>
 
-
+<div>
+    <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
+</div>
 <!------------------------------ Footer --------------------------------->
 
 <section class="footer">
@@ -155,9 +181,9 @@
     </div>
 </section>
     
-    <div>
-        <hr id="linea" style="width: 900px;">
-    </div>
+<div>
+    <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
+</div>
 
 
     <!------------------------------ Footer/Copy--------------------------------->
