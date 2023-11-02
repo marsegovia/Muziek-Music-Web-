@@ -442,9 +442,11 @@ body{
 /*----------------------------Slider------------------------*/
 
 .slider {
-    max-width: 800px; /* Define el ancho máximo del slider */
-    height: 600px;
+    max-width: 700px; /* Define el ancho máximo del slider */
+    height: 550px;
     margin: 0 auto; /* Centra el slider en la página */
+    margin-left: 300px;
+    margin-top: -70px;
 }
 
 .slides {
@@ -513,14 +515,53 @@ body{
     transition: 0.6s ease;
 }
 
+/* Estilos para las flechas de navegación */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+
 .prev {
-    left: 0;
+    left: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .next {
-    right: 0;
+    right: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
+
+
+.carousel-indicators{
+    margin-left: 150px;
+    background: transparent;
+}
+
+.slide {
+    display: none;
+    opacity: 0; /* Establece la opacidad inicial en 0 */
+    transition: opacity 2s ease; /* Agrega una transición de opacidad de 1 segundo */
+    margin-top: 50px;
+}
+
+.slide.active {
+    display: block;
+    opacity: 1; /* Cambia la opacidad a 1 cuando la clase active está presente */
+}
 
 
 /*----------------------------Fuentes------------------------*/

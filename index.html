@@ -36,6 +36,13 @@
 
     <!-------------------------------- Slider ---------------------------------------->
 <div class="slider">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" onclick="showSlide(0)"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" onclick="showSlide(1)"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" onclick="showSlide(2)"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4" onclick="showSlide(3)"></button>
+    </div>
+
     <div class="slides">
 
         <div class="slide">
@@ -64,7 +71,7 @@
         </div>
             <!-- Agrega más slides con la misma estructura si deseas -->
             <div class="slide">
-                <div class="image-text">
+                <div class="image-text"> 
                     <div class="image" style="background-image: url('./IMG/edsheeran.jfif');">
                     <img src="./IMG/edsheeran.jfif" alt="">
 
@@ -89,6 +96,7 @@
                 </div>
             </div>
     </div>
+    
         <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
         <a class="next" onclick="changeSlide(1)">&#10095;</a>
 </div>
@@ -201,7 +209,7 @@
         </nav>
     </footer>
 
-    <script src="./JS/slider.js"></script>
+<script src="./JS/slider.js"></script>
 
 </body>
 </html>
