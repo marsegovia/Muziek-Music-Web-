@@ -1,0 +1,138 @@
+*{
+    background-color: black;
+}
+/* Estilos básicos para el catálogo de álbumes */
+.catalogo {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Album1*/
+.album {
+    text-align: center;
+}
+
+.album img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.album p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Album2*/
+.album2 {
+    text-align: center;
+}
+
+.album2 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album2 h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.album2 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+
+/* Album3*/
+.album3 {
+    text-align: center;
+}
+
+.album3 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album3 h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.album3 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Album4*/
+.album4 {
+    text-align: center;
+}
+
+.album4 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album4 h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.album4 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Album5*/
+.album5 {
+    text-align: center;
+}
+
+.album5 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album5 h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.album5 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
