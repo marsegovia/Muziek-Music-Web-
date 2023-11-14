@@ -102,7 +102,7 @@
     
     <h4 class="text_form1">¿ESTAS BUSCANDO LICENCIAS?</h4>
 
-    <form class="content2" action="">
+    <form id="miFormulario" class="content2" action="">
         <div class="form">
             <label for="">Nombre</label>
             <input type="text" class="label" name="nombre" placeholder="Nombre" required>
@@ -122,20 +122,17 @@
             <br>
 
             <label for="">Tipo de Uso</label>
-                <select name="uso" class="label" required>
+                <select name="uso" class="label" id="uso" required>
                     <option value="" disabled selected hidden>Seleccione una opcion</option> 
                     <option value="">Personal</option>
                     <option value="">Comercial</option>
                 </select>
         </div>
+
     </form>
+<br>
+    <button class="boton3" type="submit" onclick="enviarFormulario()">Enviar</button>
 </section>
-
-
-
-
-
-
 
 
 
@@ -188,5 +185,23 @@
             </nav>
         </footer>
 
+        <script>
+            // Función para enviar el formulario y mostrar la alerta
+            function enviarFormulario() {
+                var tipoUso = document.getElementById("uso").value;
+                if(tipoUso="Personal"){
+                    alert("Se envio el Formulario para uso personal");
+                }
+                else if(tipoUso="Comercial"){
+                    alert("Se envio el formulario para uso comercial");
+                }
+            else{
+                    alert("Seleccione una opcion");
+                }
+            }
+        </script>
+    
+
     </body>
+
 </html>

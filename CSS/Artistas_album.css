@@ -1,0 +1,474 @@
+*{
+    background-color: black;
+}
+/* Estilos básicos para el catálogo de álbumes */
+.catalogo {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Album1*/
+.album {
+    text-align: center;
+}
+
+.album img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+    font-family: head;
+}
+
+.album p {
+    margin: 3px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+/* Album2*/
+.album2 {
+    text-align: center;
+}
+
+.album2 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album2 h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+    font-family: head;
+}
+
+.album2 p {
+    margin: 3px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+
+/* Album3*/
+.album3 {
+    text-align: center;
+}
+
+.album3 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album3 h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+    font-family: head;
+}
+
+.album3 p {
+    margin: 3px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+/* Album4*/
+.album4 {
+    text-align: center;
+}
+
+.album4 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album4 h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+    font-family: head;
+}
+
+.album4 p {
+    margin: 3px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+/* Album5*/
+.album5 {
+    text-align: center;
+}
+
+.album5 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.album5 h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+    font-family: head;
+}
+
+.album5 p {
+    margin: 3px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+
+
+
+/* Clases*/
+body{
+    background-color: black;
+}
+*{
+    background-color: black;
+    background-color: rgb(10, 10, 10);
+    background-blend-mode: soft-light;
+}
+
+/*---------------------Barra de busqueda--------------*/
+.search-bar{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-bar input{
+    margin-top: 25px;
+    width: 0px;
+    height: 40px;
+    padding:0 20px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid darkmagenta;
+    transition: all 0.6s ease;
+    color: white;
+}
+
+.btn{
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    top: 0;
+    right: 0;
+    background-color: darkmagenta;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.btn i{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search-bar:hover input{
+    width: 230px;
+}
+
+.search-bar input:focus{
+    width: 240px;
+}
+
+/* Estilo base del ícono del botón */
+.fa-magnifying-glass {
+    transition: transform 0.3s; /* Agrega una transición al ícono */
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    padding: 20 20;
+
+}
+
+/* Estilo cuando el cursor está sobre el ícono */
+.fa-magnifying-glass:hover {
+    transform: scale(1.2); /* Por ejemplo, aumenta el tamaño del ícono al pasar el cursor sobre él */
+}
+
+/*-------------------------Menus-------------------------*/
+.header{
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+    margin-left: 6px;
+    font-family: tag;
+    font-size: 30px;
+}
+
+.menu a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambia el color del enlace al pasar el cursor por encima */
+.menu a:hover {
+    color: white;
+    text-shadow: 0 0 10px  darkmagenta, 0 0 10px  darkmagenta;
+}
+
+
+.menu1{
+    display: flex;
+    align-items: center;
+}
+
+.menu1 li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+}
+
+.menu1 a {
+    font-size: 16px;
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.menufoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.menufoot li{
+    color: white;
+    list-style: none;
+    font-family: tag;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.menufoot a {
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menufoot a:hover{
+    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
+}
+
+/*-----------------------Botones----------------------*/
+
+.boton{
+    padding: 12px 40px;
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+}
+
+.boton:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
+
+/*---------------------------------Footer -------------------------------*/
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: tag;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.form-control{
+    background-color: black;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*-------------------------Textos-----------------------------*/
+
+.titulo2{
+    margin-top: 0;
+    font-size: 50px;
+    color: #7C7A7D;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+
+.titulo2 a{
+    color:darkgray;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+.titulo2 a:hover{
+    text-shadow: 0 0 15px  darkmagenta, 0 0 15px  darkmagenta;
+    color: white;
+}
+
+.titulo3{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: #7C7A7D;
+}
+
+/*-----------------------------------IDs--------------------*/
+
+#texto1{
+    color: white;
+    font-family: Comic-Runes;
+    font-size: 18px;
+}
+
+.enlace{
+    text-decoration: none;
+    margin-left: 12px;
+    color: white;
+}
+
+.titulos{
+    font-family: Graffitti;
+    font-size: 80px;
+    color:darkorchid;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+.titulos1{
+    font-family: Graffitti;
+    font-size: 80px;
+    color:darkorchid;
+    stroke: white;
+    margin-left: 200px;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+#sub_titulo{
+    font-family: bad;
+    font-size: 40px;
+    color: #5C55C5;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+
+/*----------------------------Fuentes------------------------*/
+
+@font-face {
+    font-family: Graffitti;
+    src: url('../Fonts/MARSNEVENEKSK-Clean.otf');
+}
+
+@font-face {
+    font-family: tag;
+    src: url('../Fonts/aAnotherTag.ttf');
+}
+
+@font-face {
+    font-family: bad;
+    src: url('../Fonts/Bad\ Signal.otf');
+}
+
+@font-face {
+    font-family: Urban;
+    src: url('../Fonts/UrbanJungleDEMO.otf');
+}
+
+@font-face {
+    font-family: Take;
+    src: url('../Fonts/Take\ cover.ttf');
+}
+
+@font-face {
+    font-family: street;
+    src: url('../Fonts/street\ cred.otf');
+}
+
+@font-face {
+    font-family: head;
+    src: url('../Fonts/HeadlinerNo.45\ DEMO.ttf');
+}

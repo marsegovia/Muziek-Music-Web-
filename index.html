@@ -27,11 +27,17 @@
                 <li><a href="./Pages/artist.html">Artistas</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Mi Cuenta</a></li>
-                <li><button class="boton">Iniciar  Sesion</button></li>
+                <li><button class="boton" onclick="abrirPagina()">Iniciar Sesion</button></li>
             </nav>
     </header>
     <br>
-
+    <script>
+        // Función para abrir el otro HTML
+        function abrirPagina() {
+            // Cambia 'otra_pagina.html' al nombre de tu archivo HTML
+            window.location.href = './Pages/InicarSes.html';
+        }
+    </script>
 
 
     <!-------------------------------- Slider ---------------------------------------->

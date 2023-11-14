@@ -415,6 +415,25 @@ transition: background-color 0.3s ease; /* Transición para el efecto hover */
     color: black;
 }
 
+.boton3{
+    padding: 12px 40px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+    font-family: tag;
+    font-size: 30px;
+    color: white;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.boton3:hover{
+    background-color: white; /* Nuevo color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
 
 
 
