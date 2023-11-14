@@ -23,13 +23,21 @@
         </div>
 <!-- Menu de navegacion principal-->
             <nav class="menu">
-                <li><a href="#">Artistas</a></li>
+                <li><a href="../Pages/artist.html">Artistas</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Mi Cuenta</a></li>
-                <li><button class="boton">Iniciar  Sesion</button></li>
+                <li><button class="boton" onclick="abrirPagina()">Iniciar  Sesion</button></li>
             </nav>
     </header>
     <br>
+
+    <script>
+        // Función para abrir el otro HTML
+        function abrirPagina() {
+            // Cambia 'otra_pagina.html' al nombre de tu archivo HTML
+            window.location.href = '../Pages/InicarSes.html';
+        }
+    </script>
 
 <!----------------------------------------Contenido-------------------------------------------->
 
@@ -42,19 +50,29 @@
     <br>
 
     <div class="botones">
-        <button class="boton">Se patrocinador</button>
-    <button class="boton1">Licencias</button>
+        <button class="boton" onclick="navegarASeccion('seccionPatrocinador')">Se patrocinador</button>
+    <button class="boton1" onclick="navegarASeccion('miFormulario')">Licencias</button>
     </div>
 </section>
 <br>
 
+<script>
+    // Función para navegar a una sección específica
+    function navegarASeccion(seccionPatrocinador) {
+        document.getElementById('seccionPatrocinador').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
 
-<!-------------------Section 2-------------------------->
-<section class="last">
-    <h2 class="titulo1">Ultimas colaboraciones</h2>
-    <p class="p1">Explore some of our latest partnerships and activations <br> 
-        with innovative platforms and games such as Rocket League, Fortnite, and SMITE.</p>
-</section>
+<script>
+    // Función para navegar a una sección específica
+    function navegarASeccion(miFormulario) {
+        document.getElementById('miFormulario').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
 
 
 
@@ -91,13 +109,16 @@
 <!------------------------------- Forms------------------------------------->
 
 <section class="opiniones1">
-    <div class="content1">
+
+    <section>
+<div class="content1" id="seccionPatrocinador">
         <h4 class="text_form">¿INTERESADO EN SER<br>
             UN PATROCINADOR? HABLEMOS!</h4>
         <p class="texto1">Nos encanta trabajar con entidades que desean impactar fuertemente a traves de la musica. <br>
             ¿Tienes una idea para compartirnos? Hazla saber a nuestros otros compañeros!</p>
         <button class="boton2">Contactanos</button>
     </div>
+    </section>
     <br>
     
     <h4 class="text_form1">¿ESTAS BUSCANDO LICENCIAS?</h4>

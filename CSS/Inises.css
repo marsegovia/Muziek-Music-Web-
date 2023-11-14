@@ -9,10 +9,14 @@ body {
     height: 100vh;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: row;
+}
+
 form {
     background-color: #282c34;
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 300px;
     width: 100%;
@@ -20,6 +24,13 @@ form {
 
 h2 {
     color: darkmagenta;
+    font-family: graffitti;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
 }
 
 .form-group {
@@ -49,9 +60,51 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 20px;
+    font-family: graffitti;
 }
 
 button:hover {
     background-color: white;
     color: black;
+}
+
+.imagen{
+    display: flex;
+height: 400px;
+width: 350px;
+background-color: black;
+align-items: center;
+justify-content: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+/*----------------------------Fuentes------------------------*/
+
+@font-face {
+    font-family: Graffitti;
+    src: url('../Fonts/MARSNEVENEKSK-Clean.otf');
+}
+
+@font-face {
+    font-family: tag;
+    src: url('../Fonts/aAnotherTag.ttf');
+}
+
+@font-face {
+    font-family: bad;
+    src: url('../Fonts/Bad\ Signal.otf');
+}
+
+@font-face {
+    font-family: Urban;
+    src: url('../Fonts/UrbanJungleDEMO.otf');
+}
+
+@font-face {
+    font-family: Take;
+    src: url('../Fonts/Take\ cover.ttf');
 }
