@@ -585,13 +585,15 @@ body{
 
 /*--------------------------------------------Responsive------------------------------------------*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 400px){
     /*----------------------------Header------------------------*/
     .header{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+        margin-bottom: 100px;
     }
 
     .img{
