@@ -457,6 +457,7 @@ body{
 .image-text {
     display: flex;
     flex-direction: row;
+    font-family: tag;
 }
 
 .image {
@@ -480,10 +481,11 @@ body{
 .text {
     margin-top: 120px;
     width: 70%; /* Ancho del texto */
-    font-size: 30px;
+    font-size: 25px;
     padding: 20px;
     color: white;
     background: transparent;
+    font-family: bad;
 }
 
 .text h2{
@@ -528,12 +530,14 @@ body{
     left: 10px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    background: transparent;
 }
 
 .next {
     right: 10px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    background: transparent;
 }
 
 
@@ -596,6 +600,58 @@ body{
         margin-bottom: 100px;
     }
 
+    .search-bar:hover input{
+        width: 200px;
+    }
+    
+    .search-bar input:focus{
+        width: 200px;
+    }
+
+    .slider{
+        margin-left: -100px;
+    }
+
+    .carousel-indicators{
+        margin-top: 300px;
+        margin-left: 45px;
+    }
+
+    .image-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        position: absolute;
+        margin-left: 75px;
+        margin-top: -10px;
+        font-size: 25px;
+    }
+
+    .image{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        width: 350px;
+        margin-left: 110px;
+    }
+
+    .image img{
+        height: 250px;
+        width: 250px;
+        margin-left: 45px;
+    }
+
+    .prev{
+        margin-top: 90px;
+        font-size: 35px;
+    }
+
+    .next{
+        margin-top: 90px;
+        font-size: 35px;
+    }
     .img{
         display: inline-block;
         height: auto;
@@ -617,7 +673,7 @@ body{
     }
     .titulos{
         margin-left: auto;
-        margin-top: 170px;
+        margin-top: 50px;
         font-size: 35px;
         text-wrap: nowrap;
         justify-content: center;
