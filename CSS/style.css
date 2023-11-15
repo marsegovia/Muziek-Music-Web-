@@ -589,7 +589,7 @@ body{
 
 /*--------------------------------------------Responsive------------------------------------------*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 800px){
     /*----------------------------Header------------------------*/
     .header{
         display: flex;
@@ -607,6 +607,8 @@ body{
     .search-bar input:focus{
         width: 200px;
     }
+
+    /*----------------------------Slider------------------------*/
 
     .slider{
         margin-left: -100px;
@@ -652,6 +654,8 @@ body{
         margin-top: 90px;
         font-size: 35px;
     }
+
+    /*----------------------------Header------------------------*/
     .img{
         display: inline-block;
         height: auto;
@@ -671,6 +675,7 @@ body{
         padding: 10px 10px;
         font-size: 12px;
     }
+    
     .titulos{
         margin-left: auto;
         margin-top: 50px;
