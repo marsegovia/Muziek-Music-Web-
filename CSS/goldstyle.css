@@ -448,6 +448,7 @@ background: transparent;
     /*----------------------------Contenido------------------------*/
 
 .gold{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -455,7 +456,7 @@ background: transparent;
     color: white;
     background-image: url('../IMG/descarga\ \(2\).jpg');
     height: 500px;
-    width: 400px;
+    width: 390px;
 }
     
 .titulo1{
@@ -475,6 +476,7 @@ background: transparent;
     justify-content: center;
     font-size: 10px;
     margin-left: -40px;
+    margin-top: -70px;
     max-width: 370px;
 }
 
