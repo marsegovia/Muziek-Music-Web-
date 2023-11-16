@@ -590,6 +590,10 @@ body{
 /*--------------------------------------------Responsive------------------------------------------*/
 
 @media screen and (max-width: 400px){
+
+    *{
+        background-color: black;
+    }
     /*----------------------------Header------------------------*/
     .header{
         display: flex;
@@ -759,5 +763,11 @@ body{
     .menu1 li{
         text-align: center;
         font-size: 12px;
+    }
+
+    .enlace{
+        text-decoration: none;
+        margin-left: 12px;
+        color: white;
     }
 }
