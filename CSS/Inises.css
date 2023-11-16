@@ -108,3 +108,53 @@ img{
     font-family: Take;
     src: url('../Fonts/Take\ cover.ttf');
 }
+
+/*--------------------------------------------Responsive------------------------------------------*/
+
+@media screen and (max-width: 400px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 380px;
+    }
+
+    form {
+        background-color: #282c34;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 380px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        width: 380px;
+    }
+
+    .imagen{
+    display: flex;
+    height: 400px;
+    width: 380px;
+    background-color: black;
+    }
+
+    img{
+        height: 200px;
+        width: 200px;
+        margin-left: -90px;
+    }
+
+    h2 {
+        color: darkmagenta;
+        font-family: graffitti;
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 3px  0px 0px white,
+                   0px  3px 0px white,
+                  -3px  0px 0px white,
+                   0px -3px 0px white;
+    }
+    
+    
+ 
+}

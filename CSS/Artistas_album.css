@@ -435,6 +435,11 @@ body{
                0px -3px 0px white;
 }
 
+.linea{
+    width: 100%; 
+    margin-bottom: 30px; 
+    color: white;
+}
 
 /*----------------------------Fuentes------------------------*/
 
@@ -471,4 +476,239 @@ body{
 @font-face {
     font-family: head;
     src: url('../Fonts/HeadlinerNo.45\ DEMO.ttf');
+}
+
+/*--------------------------------------------Responsive------------------------------------------*/
+
+@media screen and (max-width: 400px){
+    .linea{
+        width: 380px;
+}
+    /*----------------------------Header------------------------*/
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.search-bar:hover input{
+    width: 150px;
+}
+    
+.search-bar input:focus{
+    width: 150px;
+}
+
+.img{
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.menu{
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu li{
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+}
+
+.boton{
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
+.titulos{
+    margin-left: auto;
+    margin-top: 50px;
+    font-size: 35px;
+    text-wrap: nowrap;
+    justify-content: center;
+}
+
+.titulos1{
+    margin-top: 20px;
+    margin-left: auto;
+    font-size: 35px;
+    text-wrap: nowrap;
+}
+
+/*-----------------------Contenido----------------------*/
+.catalogo {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.album{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album2{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album3{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album3{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album4{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album5{
+    margin-left: -20px;
+    width: 380px;
+}
+
+.album img{
+    height: 300px;
+}
+
+.album2 img{
+    height: 300px;
+}
+
+.album3 img{
+    height: 300px;
+}
+.album4 img{
+    height: 300px;
+}
+.album5 img{
+    height: 300px;
+}
+
+.album h3{
+    font-size: 25px;
+}
+
+.album2 h3{
+    font-size: 25px;
+}
+
+.album3 h3{
+    font-size: 25px;
+}
+.album4 h3{
+    font-size: 25px;
+}
+.album5 h3{
+    font-size: 25px;
+}
+
+.album p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.album2 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.album3 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.album4 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.album5 p {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #666;
+}
+/*----------------------------Footer------------------------*/
+
+.footer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.about{
+    text-wrap: nowrap;
+}
+.terms{
+    text-wrap: nowrap;
+}
+.menufoot li{
+    font-size: 15px;
+}
+.titulo2{
+    text-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------pie------------------------*/
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#texto1{
+    text-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+}
+.menu1 li{
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu1{
+    display: flex;
+    align-items: center;
+}
+
+.menu1 li{
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+}
+
+.menu1 a {
+    font-size: 16px;
+    color: white; /* Color del texto de la barra */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.enlace{
+    text-decoration: none;
+    margin-left: 12px;
+    color: white;
+}
 }

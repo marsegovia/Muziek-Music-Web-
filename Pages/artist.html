@@ -25,7 +25,7 @@
                 <li><a href="#">Artistas</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Mi Cuenta</a></li>
-                <li><button class="boton">Iniciar  Sesion</button></li>
+                <li><button class="boton" onclick="abrirPagina()">Iniciar  Sesion</button></li>
             </nav>
     </header>
     <br>
@@ -88,14 +88,15 @@
             </div>
         </figure>
     </a>
-</section>>
+</section>
 
-
-
+<br>
 
     <div>
-        <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
+        <hr class="linea">
     </div>
+
+    <br>
     <!------------------------------ Footer --------------------------------->
     
     <section class="footer">
@@ -124,7 +125,7 @@
     </section>
         
     <div>
-        <hr id="linea" style="width: 100%; margin-bottom: 30px; color: white;">
+        <hr class="linea">
     </div>
     
     
@@ -143,9 +144,13 @@
             </nav>
         </footer>
 
-
-        
-        <script src="./JS/buscar.js"></script>
+        <script>
+            // Función para abrir el otro HTML
+    function abrirPagina() {
+    // Cambia 'otra_pagina.html' al nombre de tu archivo HTML
+            window.location.href = '../Pages/InicarSes.html';
+    }
+        </script>
         <script src="../JS/desplegar.js"></script>
     </body>
 </html>
