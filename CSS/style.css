@@ -589,7 +589,7 @@ body{
 
 /*--------------------------------------------Responsive------------------------------------------*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
     /*----------------------------Header------------------------*/
     .header{
         display: flex;
