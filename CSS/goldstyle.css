@@ -400,11 +400,11 @@ background: transparent;
 }
 
 .search-bar:hover input{
-    width: 200px;
+    width: 150px;
 }
     
 .search-bar input:focus{
-    width: 200px;
+    width: 150px;
 }
 
 .img{
@@ -458,20 +458,6 @@ background: transparent;
     width: 400px;
 }
     
-.titulo{
-        font-family: Graffitti;
-        background: transparent;
-        font-size: 50px;
-        color:darkcyan;
-        stroke: white;
-        margin-left: 0px;
-        text-shadow: 3px  0px 0px white,
-               0px  3px 0px white,
-              -3px  0px 0px white,
-               0px -3px 0px white;
-    transition: background-color 0.3s ease; /* Transición para el efecto hover */
-}
-
 .titulo1{
     font-family: urban;
     font-size: 20px;
@@ -533,6 +519,7 @@ background: transparent;
     color:darkcyan;
     stroke: white;
     margin-left: 0px;
+    margin-top: 100px;
     text-shadow: 3px  0px 0px white,
            0px  3px 0px white,
           -3px  0px 0px white,
@@ -654,6 +641,7 @@ transition: background-color 0.3s ease; /* Transición para el efecto hover */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 12px;
 }
 
 .enlace{
