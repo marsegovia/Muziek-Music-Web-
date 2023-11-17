@@ -430,6 +430,10 @@ body{
                0px -3px 0px white;
 }
 
+.linea{
+    width: 900px; 
+    margin-top: 30px;
+}
 
 /*----------------------------Slider------------------------*/
 
@@ -591,6 +595,11 @@ body{
 
 @media screen and (max-width: 400px){
 
+    .linea{
+        width: 380px;
+        color: white;
+}
+
     body{
         background-color: black;
     }
@@ -615,7 +624,8 @@ body{
     /*----------------------------Slider------------------------*/
 
     .slider{
-        margin-left: -100px;
+        margin-left: -98px;
+        margin-bottom: -100pxv;
     }
 
     .carousel-indicators{
@@ -682,7 +692,6 @@ body{
     
     .titulos{
         margin-left: auto;
-        margin-top: 50px;
         font-size: 35px;
         text-wrap: nowrap;
         justify-content: center;
