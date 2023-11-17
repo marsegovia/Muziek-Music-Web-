@@ -111,30 +111,41 @@ img{
 
 /*--------------------------------------------Responsive------------------------------------------*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 380px){
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to left, black, darkmagenta);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 360px;
+    }
+
     .formulario{
         display: flex;
         flex-direction: column;
         height: 400px;
-        width: 380px;
+        width: 360px;
     }
 
     form {
         background-color: #282c34;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        max-width: 380px;
+        max-width: 320px;
     }
 
     .form-group {
         margin-bottom: 15px;
-        width: 380px;
+        width: 320px;
     }
 
     .imagen{
     display: flex;
     height: 400px;
-    width: 380px;
+    width: 360px;
     background-color: black;
     }
 
