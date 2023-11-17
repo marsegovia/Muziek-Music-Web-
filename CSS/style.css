@@ -593,7 +593,7 @@ body{
 
 /*--------------------------------------------Responsive------------------------------------------*/
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
 
     .linea{
         width: 380px;
@@ -624,13 +624,13 @@ body{
     /*----------------------------Slider------------------------*/
 
     .slider{
-        margin-left: -98px;
-        margin-bottom: -100pxv;
+        margin-left: -78px;
+        margin-bottom: -100px;
     }
 
     .carousel-indicators{
         margin-top: 300px;
-        margin-left: 45px;
+        margin-left: 95px;
     }
 
     .image-text{
@@ -662,11 +662,13 @@ body{
     .prev{
         margin-top: 90px;
         font-size: 35px;
+        margin-left: 20px;
     }
 
     .next{
         margin-top: 90px;
         font-size: 35px;
+        margin-right: -30px;
     }
 
     /*----------------------------Header------------------------*/
