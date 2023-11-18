@@ -666,6 +666,14 @@ body{
     margin-bottom: 10px;
 }
 
+.form-control{
+    width: 300px;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: white;
+    color: white;
+}
+
 
 /*----------------------------pie------------------------*/
 

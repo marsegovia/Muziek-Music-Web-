@@ -607,6 +607,14 @@ transition: background-color 0.3s ease; /* Transición para el efecto hover */
     margin-bottom: 10px;
 }
 
+.form-control{
+    width: 300px;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: white;
+    color: white;
+}
+
 /*----------------------------pie------------------------*/
 
 .pie{
