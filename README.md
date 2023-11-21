@@ -5,14 +5,14 @@ muziek viene del holandes y significa musica, lo cual le da un sentido y un esti
 Espero que sea de tu agrado y que pronto puedas utilizar muziek!
 El proyecto se encuentra en desarollo, si deseas puedes contribuir:
 
-Contribución
+Contribución: 
 Haz un fork de este repositorio
 Crea una nueva rama: git checkout -b nueva-funcionalidad
 Realiza tus cambios y realiza commit: git commit -m 'Añade nueva funcionalidad'
 Haz push a la rama: git push origin nueva-funcionalidad
 Abre una pull request en GitHub
 
-Instalación
+Instalación: 
 Clona este repositorio: git clone https://github.com/marsegovia/TpFinal.github.io
 Navega hasta el directorio del proyecto: cd TpFinal
 Instala las dependencias: npm install
@@ -20,8 +20,8 @@ Uso
 Ejecuta la aplicación: npm start
 Abre tu navegador e ingresa a http://localhost:3000
 
-Licencia
+Licencia: 
 Este proyecto está bajo la Licencia sin licencia, es codigo abierto. Puedes consultar el archivo LICENSE.md para más detalles.
 
-Contacto
+Contacto: 
 Si tienes alguna pregunta o sugerencia, puedes contactarme a través de marsegovia@frba.utn.edu.ar o instagram: _martiinsegovia_.
